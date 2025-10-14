@@ -13,6 +13,7 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
+
 @Entity // Informa que essa classe será usada como modelo para criação da tabela no DB
 @Table (name = "tb_postagens") // Criando a tabela definindo o nome expecifico (CREATE TABLE tb_postagens)
 
